@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/frontend/index.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/frontend/index.html"
+    }
+  ],
+  "outputDirectory": "frontend",
+  "framework": null,
+  "installCommand": "echo 'No dependencies to install'",
+  "buildCommand": "echo 'Static site - no build required'",
+  "devCommand": "echo 'Static site - no dev server needed'",
+  "cleanUrls": true,
+  "trailingSlash": false
+}
